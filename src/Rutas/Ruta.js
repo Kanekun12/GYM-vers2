@@ -3,11 +3,13 @@ import  {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 
-
+import { WebsiteList } from "../components/WebsiteList";
+import { WebsiteForm } from "../components/WebsiteForm";
 
 
 
 import Contenido from '../Pag/contenido';
+
 
 import Informe from '../Pag/informe';
 import Brazos from '../Pag/brazos';
@@ -32,6 +34,9 @@ function Ruta() {
              
                 <Route exact path="/" element ={<Contenido/>}/>
 
+                <Route path="list" element={<WebsiteList />} />
+                <Route path="add" element={<WebsiteForm />} />
+                <Route path="edit/:id" element={<WebsiteForm />} />
                 <Route exact path="/informe" element ={<Informe/>}/>
                 <Route exact path="/brazos" element ={<Brazos/>}/>
                 <Route exact path="/pecho" element ={<Pecho/>}/>

@@ -1,8 +1,9 @@
 import React from 'react'
 
-import logo1 from '../img/gym.png';
-import Ruta from '../Rutas/Ruta';
 
+import logo1 from '../img/gym.png';
+
+import { Link } from "react-router-dom";
 import { signOut } from 'firebase/auth';
 import { auth } from '../fire';
 
@@ -17,6 +18,8 @@ import './gluteos';
 
 import './fondo.css';
 import './contenido.css';
+
+
 
 
 
@@ -60,8 +63,8 @@ export default function Contenido( {
                 Cerrar Sesion
             </button>  
         </div>
-          
-        
+
+    
 
       <div className="title">GYM ANYTIME</div>
 
@@ -72,6 +75,18 @@ export default function Contenido( {
           <div className='title-ejercicios'>
             <label form='text'>EJERCICIOS </label>
             
+          </div>
+
+
+          <div className='add'>
+          
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+          <Link className="dropdown-item" to="/add">|Agregar |</Link>
+          <Link className="dropdown-item" to="list">|Actualizacion |</Link>
+            
+            
+          </ul>
+          
           </div>
             
             

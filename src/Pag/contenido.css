@@ -64,3 +64,8 @@
 
     
 }
+
+.add{
+    transform: translateX(20%) translateY(-120px);
+
+}

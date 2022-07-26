@@ -3,7 +3,7 @@ import Login from "./auth/Login";
 import Register from "./auth/Register";
 import  Home from "../src/pages/Home";
 
-import Contenido from './Pag/contenido';
+
 
 
 import { auth } from './fire';
@@ -11,6 +11,7 @@ import { onAuthStateChanged } from 'firebase/auth'
 
 function App() {
   const [user, setUser] = React.useState(null);
+  
   const [authState, setAuthState] = React.useState(null)
 
   React.useEffect(() => {

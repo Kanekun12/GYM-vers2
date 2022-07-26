@@ -1,0 +1,43 @@
+.formulario{
+    
+    transform: translateX(-25%) translateY(50%);
+}
+
+.cuadro-contenido {
+    height: 500px;
+    width: 400px;
+    
+    background: white;
+    padding: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: black;
+}
+
+
+
+.titulos{
+    
+    transform: translateX(35%) translateY(-70%);
+
+}
+.titulos2{
+    
+    transform: translateX(35%) translateY(-140%);
+
+}
+
+.select{
+    transform: translateX(-25%) translateY(20%);
+
+}
+
+.botGuardar{
+    text-align: center;
+    transform: translateX(120px) translateY(250px);
+
+    
+
+}

@@ -39,7 +39,7 @@
 }
 .Login{
     background-image:  url('../img/fondo.jpg');
-    background-size: 100% 100%;
+    background-size: 100px 100px;
     min-height: 100vmin;
     display: flex;
     flex-direction: column;
